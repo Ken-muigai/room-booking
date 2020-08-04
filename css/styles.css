@@ -1,5 +1,52 @@
 .div card {
-display: flex;
   flex-direction: column;
-  flex-flow:column wrap;
+  justify-content: center;
+  display: block;
+  width: 100%;
+  min-height: 25vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1vh;
+}
+.card-body h3,
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+.one-bedroom div img {
+  width: 90%;
+  height: auto;
+}
+
+.one bedroom h3 {
+  color: blue;
+}
+.one-bedroom p {
+  margin: auto 10%;
+}
+.main-row {
+  justify-content: space-around;
+}
+.one .one-bedroom div {
+  display: block;
+  width: 100%;
+}
+
+span {
+  cursor: pointer;
+}
+.card-body img {
+  width: 100%;
+  border-radius: 10px;
+  height: 30vh;
+}
+/*media queries for the one bedroom*/
+@media screen and (max-width: 750px) {
+  #card {
+    width: 90% !important;
+    float: left !important;
+    margin-top: 2vh;
+    padding: 2vh;
+  }
 }
