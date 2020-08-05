@@ -293,4 +293,6 @@ body{
     color: black !important;
     background-color: rgba(255, 0, 0, 0.418);
     z-index: 1;
+    width: 120px;
+    height: 8vh;
 }
