@@ -1,3 +1,9 @@
+.row, .container, body{
+    background-image: url('/room-booking/images/bedsitters/simone-dalmeri-_k5CULH5SFA-unsplash.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .img-top{
     height: 250px;
     width: 300px;
@@ -6,4 +12,24 @@
 
 h1,h3,p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.col-4{
+    padding-bottom: 20px;
+}
+
+h1{
+    padding: 10px;
+}
+
+#mario{
+    margin-left: 50px;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+label{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
