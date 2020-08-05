@@ -66,8 +66,49 @@ body{
         margin-top: 15%;
         zoom: 1.8;   
     }
+/* create the hoverable buttons */
+.myButton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border:1px solid rgba(0, 0, 0, 0.31);
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.myButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
 
-   /* media quaries to rearrange the toppings on different screens */
+.myButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.myButton:hover span {
+    padding-right: 25px;
+}
+
+.myButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.topRooms{
+    width: 100% !important;
+}
+#card{
+    float: left !important;
+}
+ /* media quaries to rearrange the rooms divs on different screens */
    @media screen and (max-width: 750px) {
        #card{
            width: 90% !important;
@@ -76,6 +117,35 @@ body{
            padding: 2vh;
        }
    }
+   /* Top rated tooms */
+   aside{
+    background: linear-gradient(white,rgba(0, 0, 255, 0.322), white);
+   }
+   aside h2{
+       text-align: center;
+       margin-bottom: 2vh;
+   }     
+   #myCards{
+       float: left !important;
+       margin-left: 2%;
+
+   }
+   .card-img-top{
+       max-height: 35% !important;
+   }
+   .topRooms{ 
+       float:  left !important;
+       width: 100%;
+   }
+   @media screen and (max-width: 750px) {
+    .card{
+        width: 95% !important;
+        float: left !important;
+        margin-top: 2vh;
+        padding: 2vh;
+    }
+}
+ 
    /* happy clients section */
    section h4{
        text-align: center;
