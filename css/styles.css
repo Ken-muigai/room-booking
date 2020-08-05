@@ -279,4 +279,18 @@ body{
        align-items: center;
        text-align: center;
    }
-
+/* 2 bedroom section */
+.roomsImage{
+ min-height: 80% !important;
+}
+/* the button to submit order */
+/* order button */
+#order{
+    position: fixed;
+    top: 50vh;
+    right: 2px;
+    border: 1px solid blue !important;
+    color: black !important;
+    background-color: rgba(255, 0, 0, 0.418);
+    z-index: 1;
+}
