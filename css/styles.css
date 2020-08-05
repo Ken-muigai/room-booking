@@ -32,32 +32,3 @@ nav  {
   list-style: none;
 }
 
-.menu-view  {
-    display: block;
-    cursor: pointer;
-}
-.line {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px;
-  margin-left: 20px;
-}
-
-@media screen and (max-width:1024px){
-  .nav-links{
-    width: 60%;
-  }
-}
-@media screen and (max-width:768){
-  .nav-links{
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background: #504954;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
