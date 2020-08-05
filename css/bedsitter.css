@@ -1,0 +1,9 @@
+.img-top{
+    height: 250px;
+    width: 300px;
+    text-align: center;
+}
+
+h1,h3,p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
