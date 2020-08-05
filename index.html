@@ -9,11 +9,133 @@
     <script src="js/scripts.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <title>room booking</title>
+    <title>house booking page</title>
 </head>
 <body>
+    <!-- the navigation bar -->
+ <nav>
 
-    <h2 class="text-success">Hello there!</h2>
 
+ </nav>
+<!-- The home page  -->
+<header id="home" class="container-fluid" style="padding-top: 7.3vh;">
+    <div class="row" id="header" style="background-image: url('images/house1.jpg');">
+       <div class="home-info">
+        <!-- <img class="slideRight" src="images/Buffet-Pizza.ico" width="60px" alt="mouse_click" srcset=""> -->
+        <h1 class="slideRight" ><i>Welcome</i></h1>
+        <h3 class="slideRight" >To</h3>
+        <h1 class="slideRight"><i>Lexus' House Booking Agency</i> </h1>
+        <h6 class="slideRight">BOOK THE BEST ROOMS  HERE NOW </h6>
+        </div>
+     </div>
+</header>
+<br>
+<!-- main section -->
+<!-- section to choose the type of toppings -->
+<article class="container-fluid" id="roomSelection">
+    <h3 class="text-success">Which type of house would you like to book?</h3>
+    <h4 class="text-success">Make your selection here.</h4>
+    <div class="row roomsMain" >
+         <!-- bedsitters card -->
+        <div id="card" class="card border-default mb-3 showCardBedsitters" style="width: 30%;">
+            <div class="card-header bg-transparent border-default"> <h4 style="margin: 0; padding: 0; margin: 0;">Bedsitters</h4></div>
+            <div class="card-body text-primary myImages" style="background-image: url('images/bedsitters-main.jpg');">
+                <div class="initiallyHidden1  ">
+                    <span>
+                    <a href="bedsitters.html"><button class="btn btn-primary navButton">Details</button></a>
+                </span> 
+                </div>
+            </div>
+            <div class="card-header text-primary">
+                <p class="card-text">These are the best bedsitter rooms you can book, Guaranteed security.</p>
+            </div>
+            <div class="card-footer bg-transparent border-default">
+                <h5>Prices range from $10-$20 per month</h5>
+            </div>
+        </div>
+            <!-- 1 bedroom rooms card -->
+        <div id="card" class="card border-default mb-3 showCard1Bedroom" style="width: 30%;">
+            <div class="card-header bg-transparent border-default"><h4 style="margin: 0; padding: 0; margin: 0;">1 Bedroom Rooms</h4></div>
+            <div class="card-body text-primary myImages" style="background-image: url('images/1-bedroom-main.jpg');height: 40vh;">
+                <div class="initiallyHidden2  ">
+                <span>
+                    <a href="1bedroom.html"><button class="btn btn-primary navButton">Details</button></a>
+                </span>
+                </div>
+            </div>
+            <div class="card-header text-primary">
+                <p class="card-text">These are the best 1 bedroom rooms you can have, 24/7 security, and added customer services.</p>
+            </div>
+            <div class="card-footer bg-transparent border-default">
+                <h5>Prices range from $20-$30 per month</h5>
+            </div>
+        </div>
+            <!-- 2 bedroom rooms card -->
+        <div id="card" class="card border-default mb-3 showCard2Bedroom" style="width: 30%;">
+            <div class="card-header bg-transparent border-default"> <h4 style="margin: 0; padding: 0; margin: 0;">2 Bedroom Rooms</h4></div>
+            <div class="card-body text-primary myImages" style="background-image: url('images/2-bedroom-rooms.jpg');">
+                <div class="initiallyHidden3  ">
+                <span>
+                    <a href="2bedroom.html"><button class="btn btn-primary navButton">Details</button></a>
+                </span>
+                </div>
+            </div>
+            <div class="card-header text-primary">
+                <p class="card-text">These are the top rated rooms that you can book, all rooms have strong WI-FI connection.</p>
+            </div>
+            <div class="card-footer bg-transparent border-default">
+                <h5>Prices range from $30-$40 per month</h5>
+            </div>
+        </div>
+    </div>
+    <br>
+</article>
+<br>
+<!-- end of main navigation section -->
+<!-- happy clients section -->
+<section class="container-fluid">
+    <h3 class="text-success ">Happy Clients Reviews</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 100% ;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/person1.png" class="card-img" alt="person">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">It was absolutely lovely.</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 100% ;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/person2.png" class="card-img" alt="person">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Had an amazing time and very good !!</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<br>
+<!-- end of happy clients section -->
+<footer class="container-fluid">
+    <div class="row footer" >
+        <p><i>powered my Lexus House Booking Agency @2020</i></p>
+    </div>
+</footer>
 </body>
 </html>
