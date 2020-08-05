@@ -10,5 +10,12 @@ $(document).ready(function(event){
     $(".showCard2Bedroom").hover(function(){
         $(".initiallyHidden3").toggle();
     });
+    // show naviGATION bar
+    $(function(){
+        $("#nav-placeholder").load("navBar.html");
+      }); 
+      
+      
     event.preventDefault();
+
 });

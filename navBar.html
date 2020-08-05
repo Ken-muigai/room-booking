@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/navstyles.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <title>RoomBooking</title>
+    <link rel="stylesheet" href="css/navstyles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>navigation bar</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <h4>RoomBooking</h4>
-        </div>
-        <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Bedsitters</a></li>
-            <li><a href="">One bedroom</a></li>
-            <li><a href="">Two bedrooms</a></li>
-        </ul>
-
-        <div class="mobile-view">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </nav> 
-
-
-    <script src="./js/jquery-3.5.1.js"></script>
-    <script src="./js/scripts.js"></script>
-    <script src="/.js/popper.min.js"></script>
-    <script src="/.js/bootstrap.min.js"></script>
+        <!-- The navigation bar -->
+        <nav id="nav-placeholder" class="navbar navbar-expand-lg navbar-light bg-">
+            <a class="navbar-brand" href="#home"><img class="logo" src="images/Buffet-Pizza.ico" width="50px" alt="logo" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="# ">Bedsitters</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="# ">1 Bedroom</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="# ">2 Bedroom </a>
+                        </li>
+                    </ul>
+                    <span class="float-right">
+                    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" href="# ">Receipt</a>
+                            </li>
+                    </ul>
+                    </span>
+                </div>
+        </nav>
+        <br>
 </body>
 </html>
