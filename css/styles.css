@@ -50,3 +50,233 @@ span {
     padding: 2vh;
   }
 }
+main{
+    background-color:rgba(0, 0, 255, 0.116);
+}
+main h2{
+    text-align: center;
+    padding: 5vh;
+}
+.pizza{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border-collapse: collapse;
+    background-color: white;
+    width: 32% !important;
+    margin-bottom: 4vh;
+    padding-bottom: 2vh;
+}
+.pizza{
+    color: blue;
+}
+.pizza p{
+    margin: auto 10%;
+}
+.main-row{
+    justify-content: space-around;
+}
+.pizza div{
+    display: block;
+    width: 100%;
+}
+.pizza div{
+    display: block;
+    width: 100%;
+    min-height: 25vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vh;
+    
+}
+.pizza div img{
+    width: 90%;
+    height: auto;
+
+}
+.pizza div:last-child{
+    margin-top: 2vh;
+    padding-top: 2vh;
+}
+ul{
+    list-style-type: none;
+}
+.btn-primary{
+    width: 50%;
+}
+.no-gutters:hover {
+    background-color: rgba(0, 0, 255, 0.068);
+}
+.radioButton *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.075);
+}
+
+
+
+
+/* end of nav styles */
+#header{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 70vh;
+}
+.home-info{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    object-fit: cover;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* the main navigation section */
+.roomsMain{
+    justify-content: space-around;
+   }
+   .roomSelection, h3, h4{
+       text-align: center;
+       padding: 2vh;
+   }
+   .myImages{
+       width: 100%;
+       height: 40vh;
+       background-position: center;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
+   .roomsMain .card:hover{
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       background-color: rgba(0, 0, 255, 0.021);
+   }
+   .card-footer{
+       display: flex !important;
+       justify-content: center !important;
+    } 
+   
+    .initiallyHidden1,.initiallyHidden2,.initiallyHidden3{
+     background-color: rgba(0, 0, 0, 0.651);
+     width: 100%;
+     height: 100%;
+     padding: 10%;
+     display: none ;
+    }
+    .navButton{
+        background-color: rgba(0, 0, 255, 0.342) !important;
+        padding-top: auto; 
+        margin-top: 15%;
+        zoom: 1.8;   
+    }
+/* create the hoverable buttons */
+.myButton {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border:1px solid rgba(0, 0, 0, 0.31);
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.myButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.myButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.myButton:hover span {
+    padding-right: 25px;
+}
+
+.myButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.topRooms{
+    width: 100% !important;
+}
+#card{
+    float: left !important;
+}
+ /* media quaries to rearrange the rooms divs on different screens */
+   @media screen and (max-width: 750px) {
+       #card{
+           width: 90% !important;
+           float: left !important;
+           margin-top: 2vh;
+           padding: 2vh;
+       }
+   }
+   /* Top rated tooms */
+   aside{
+    background: linear-gradient(white,rgba(0, 0, 255, 0.322), white);
+   }
+   aside h2{
+       text-align: center;
+       margin-bottom: 2vh;
+   }     
+   #myCards{
+       float: left !important;
+       margin-left: 2%;
+
+   }
+   .card-img-top{
+       max-height: 35% !important;
+   }
+   .topRooms{ 
+       float:  left !important;
+       width: 100%;
+   }
+   @media screen and (max-width: 750px) {
+    .card{
+        width: 95% !important;
+        float: left !important;
+        margin-top: 2vh;
+        padding: 2vh;
+    }
+}
+ 
+   /* happy clients section */
+   section h4{
+       text-align: center;
+   }
+   .card-img{
+       border-radius: 50% !important;
+       width: 70% !important;
+       margin: 15%;
+   }
+   /* the landing page footer */
+   .footer{
+       background-color: rgba(0, 0, 0, 0.589);
+       color: white;
+       min-height: 15vh;
+       display: block;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+
