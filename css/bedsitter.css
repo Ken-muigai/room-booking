@@ -1,7 +1,49 @@
-.row, .container, body{
+nav{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.288) !important;
+    z-index: 1;
+    }
+    .logo{
+    width: 40px;
+    border-radius: 50%;
+    padding: 0px;
+    
+    }
+    nav .nav-link{
+    color: white !important;
+    }
+    .nav-item{
+    margin-left: 20px;
+    }
+    .dropdown-item{
+    color: black !important;
+    }
+    .nav-item,li,a:hover{
+    color: blue !important;
+    }
+    /* end of nav styles */
+
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    min-height: 15vh;
+    
+}
+
+#footest{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstrow, .container{
     background-image: url('/room-booking/images/bedsitters/simone-dalmeri-_k5CULH5SFA-unsplash.jpg') !important;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 .img-top{
