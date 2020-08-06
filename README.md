@@ -8,68 +8,68 @@
 #### Project description:
 ### This is room-booking online system for campus students.
 
-The project has a selection section   where you select the size of pizza you want to buy.
+The project has a selection section   where you select the room you want to book for the semester.
 #### Rooms alocated according to sizes
-![The room size page](image/medium-pizza.png)
+![The room size page](image/.png)
 
 - 2 bedroom
 - 1 bedroom
 - bedsitter
 
-After you select the size of pizza you want, you then scroll down to select the type of crust you would like added to your pizza.
-#### Types of Crust available for selection;
-![The crust page](image/stuffed-crust.png)
+#### bedsitters
+[The bedsitters page](images/bedsitters-main.jpg)
+- Delan Homes
+- Mario Appartments
+- Pharisee Homes
 
-- Crispy crust
-- Stuffed crust
-- Glutted-free crust
+#### 1bedroom
+![The 1 bedroom page ](images/1-bedroom-main.jpg)
+- Nayers House
+- Keekorok House
+- Cray Fish Houses
 
-Next you select the toppings you would like to accompany your pizza.
-#### Types of toppings available for selection;
-![The toppings page](image/toppings-pizza.jpg)
+#### 2bedroom
+[The 2 bedroom page] (images/2-bedroom-rooms.jpg)
+#### Types of Top Rated Rooms;
+![The top rated rooms](images/top-rated.png)
 
-- Pineapple
-- Vegetables
-- Bacon
-- Basil
-- Mushroom
-- Peppers
-- Pesto
-- Pineaple
+- Jontes Appartments
+- El ninel rooms
+- God Grace Palace
+- KingFisher Nest Appartments
+- Pearl Palace
+- Flema Guest Palece
+- Paradise Gates 
 
+After your selection, You now choose,the room or house you would want to pay for then you make the pay view your recipt and check in. and click on *View order* button.
 
-After your selection, You now choose, if you would like to have you pizza delivered. if not, you skip the selection and click on *View order* button.
-
-If you would like to have your pizza delivered, you select your location from a dropdown to determine the cost of delivery and then enter your exact location in an input field and submit. 
-![The delivery page](image/delivery-location.png)
-
-The summary of all your selected item and delivery location is in the receipt.
+The summary of the chosen room in the specific house or appartment will be viewed in the receipt.
 
 # Receipt
 
 This is a table that is showing a summary of all the  selections made with the cost of each room selected and the cumulative cost at the bottom.
 
-You  select the pizza ordered here.
-##### Note: It is assumed all pizza will have a crust.
-![The menu ]
+
+##### Note: It is assumed that the room selected is in perfect condition.
+![The receipt page](images/receipt.jpg)
+- Form
 
 # BDD
 
 | Inputs  | Description  |
 |---|---|
-|Pizza Size  | Here you will select the size of your pizza.  |
-| Type of crust  | Here you will select the type of crust you want.  |
-| Toppings  |  Here you will select the toppings you would like to accompany your pizza. |
-| Delivery location  |  Here you will select your location and input the nearest town. |
+|Room size | Here you will select the size of the room or type of house.  |
+| bedsitter  | Here you will select the type of bedsitter you want.  |
+| 1 bedroom  |  Here you will select the specific one bedroom house you want. |
+| 2 bedroom  |  Here you will select the type of two bedroom house that you'd want. |
 
 ### Expected output on the receipt table.
 | Output  | Description  |
 |---|---|
-|Pizza Size   |  The size of the selected pizza will be displayed. with the cost|
-|Type of crust   | The selected crust will be displayed here, with its cost.|	
-|Toppings   | All the selected toppings will be displayed here, with their total cost.|
-|Delivery location  | The location that you will input will be displayed and the relative cost depending on the approximate location selected.|
-|Total cost  | The total cost of the selected items will be shown at the bottom of the receipt |
+| bedsitter  |  The type of bedsitter selected will be displayed. with the cost|
+|1 bedroom | The selected one bedroom house will be displayed here, with its cost.|	
+|2 bedroom   | The two bedroom house selected  will be displayed here, with their total cost.|
+|Total cost  | The total cost of the selected houses or rooms will be shown at the bottom of the receipt .|
 ### Technologies used;
 > Bootstrap
 
@@ -105,6 +105,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request
 
 #### Demo : 
-Here is the link to live demo [Click me] (https://github.com/beckynayere/Pizza-Bites.git)
+Here is the link to live demo [Click me] (https://github.com/humphrey-mutuma/room-booking.git)
 
-Copyright and license information: This project is licensed under the terms of the [MIT license.](https://github.com/beckynayere/pizza-inn/blob/master/LICENSE.md)
+Copyright and license information: This project is licensed under the terms of the [MIT license.](https://github.com/humphrey-mutuma/room-booking/blob/master/LICENSE.md)
