@@ -1,5 +1,11 @@
 
-$(document).ready(function(event){
+
+$(document).ready(function(){
+    //nav load
+    $('#nav-placeholder').load('navBar.html nav')
+
+    //footerloader
+    $('#footer').load('index.html footer')
     // toggle the hidden details div
     $(".showCardBedsitters").hover(function(){
         $(".initiallyHidden1").toggle();
@@ -10,12 +16,6 @@ $(document).ready(function(event){
     $(".showCard2Bedroom").hover(function(){
         $(".initiallyHidden3").toggle();
     });
-    // show naviGATION bar
-    $(function(){
-        $("#nav-placeholder").load("navBar.html");
-      }); 
-      
-      
-    event.preventDefault();
-
+    // show naviGATION b
 });
+
