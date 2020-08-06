@@ -25,19 +25,16 @@ nav{
     }
     /* end of nav styles */
 
-
-#footer{
+.footer{
     background-color: rgba(0, 0, 0, 0.589);
     color: white;
     min-height: 15vh;
-    
-}
-
-#footest{
-    text-align: center;
+    display: block;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
 
 #firstrow, .container{
     background-image: url('/room-booking/images/bedsitters/simone-dalmeri-_k5CULH5SFA-unsplash.jpg') !important;
