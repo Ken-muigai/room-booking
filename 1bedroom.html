@@ -16,12 +16,42 @@
 
 <body>
     <!-- naviation bar -->
-    <!-- The navigation bar -->
-    <div id="nav-placeholder"></div>
-    <br/>
-    <br/>
+           <!-- The navigation bar -->
+           <nav id="nav-placeholder" class="navbar navbar-expand-lg navbar-light bg-">
+            <a class="navbar-brand" href="#home"><img class="logo" src="images/logo.jpeg" width="50px" alt="logo" ></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="bedsitters.html">Bedsitters</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="1bedroom.html">1 Bedroom</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="2bedroom.html">2 Bedroom </a>
+                        </li>
+                    </ul>
+                    <span class="float-right">
+                    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" style="background-color: rgba(0, 0, 0, 0.329); color: white; border-radius: 10px;" href="#myDetails">View Booking</a>
+                            </li>
+                    </ul>
+                    </span>
+                </div>
+        </nav>
+        <br>
+        <hr style="padding-top: 4vh;">
+
     <!--  -->
     <div class="container">
+      <h2 style="text-align: center;" class="text-success">One Bedroom rooms</h2>
+      <h3 class="text-success">Make your selection and booking here</h3>
         <div class="row">
             <div class="card-body">
                 <div class="card-body" id="initiallyShown">
@@ -36,16 +66,16 @@
                                     <!-- the complete section with the title,amenities,price etc -->
                                     <div class="card-body">
                                         <h3 class="card-title"> <b>Nayers House</b></h3>
-                                        <p class="card-text"> <b>Amenities</b> WI-FI, Shower, Tv,Kitchen, Heating.</p>
-                                        <p class="card-text"> <b>Location:</b> City Road el, IN 4654</p>
-                                        <p class="card-text ">Fixed <b class="text-success">13500</b> per month.</p>
+                                        <p class="card-text"> <b>Amenities: </b> Tv,Kitchen, Heating, Balcony.</p>
+                                        <p class="card-text"> <b>Location: </b> City Road el, IN 4654</p>
+                                        <p class="card-text ">Fixed <b class="text-success">2000</b> per month.</p>
                                         <p class="card-text"><i>Select now and proceed to book.</i></p>
                                         <!-- the chechbox -->
                                         <span name="topRated" class="topRated">
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="check1" value="100">
+                                                <input type="checkbox" class="custom-control-input" id="check1" value="2000">
                                                 <label style="zoom: 2; margin-left: 10%;" class="custom-control-label"
-                                                    for="check1"><span class="text-success">13500</span></label>
+                                                    for="check1"><span class="text-success">2000</span></label>
                                             </div>
                                             <span name="crust" class="radioButton">
                                                 <div class="custom-control custom-radio custom-control-inline">
@@ -74,21 +104,21 @@
                                 <!-- the complete section with the title,amenities,price etc -->
                                 <div class="card-body">
                                     <h3 class="card-title"> <b>Keekorok House</b></h3>
-                                    <p class="card-text"> <b>Amenities</b> WI-FI, Shower, Tv,Kitchen, Heating.</p>
-                                    <p class="card-text"> <b>Location:</b> City Road el, IN 4654</p>
-                                    <p class="card-text ">Fixed <b class="text-success">24000</b> per month.</p>
+                                    <p class="card-text"> <b>Amenities: </b> WI-FI, Shower, Tv,Kitchen, Heating, Balcony, Parking</p>
+                                    <p class="card-text"> <b>Location: </b> City Road el, IN 454</p>
+                                    <p class="card-text ">Fixed <b class="text-success">2500</b> per month.</p>
                                     <p class="card-text"><i>Select now and proceed to book.</i></p>
                                     <!-- the chechbox -->
                                     <span name="topRated" class="topRated">
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="check2" value="100">
+                                            <input type="checkbox" class="custom-control-input" id="check2" value="2500">
                                             <label style="zoom: 2; margin-left: 10%;" class="custom-control-label"
-                                                for="check2"><span class="text-success">24000</span></label>
+                                                for="check2"><span class="text-success">2500</span></label>
                                         </div>
                                         <span name="crust" class="radioButton">
                                             <div class="custom-control custom-radio custom-control-inline">
                                                 <input type="radio" id="customRadioInline2" name="customRadioInline1"
-                                                    class="custom-control-input" value="24000">
+                                                class="custom-control-input" value="24000">
                                             </div>
                                         </span>
                                 </div>
@@ -109,16 +139,16 @@
                                     <!-- the complete section with the title,amenities,price etc -->
                                     <div class="card-body">
                                         <h4 class="card-title"> <b>Cray Fish House</b></h4>
-                                        <p class="card-text"> <b>Amenities</b> WI-FI, Shower, Tv,Kitchen, Heating.</p>
-                                        <p class="card-text"> <b>Location:</b> City Road el, IN 4654</p>
-                                        <p class="card-text ">Fixed <b class="text-success">21000</b> per month.</p>
+                                        <p class="card-text"> <b>Amenities: </b> WI-FI, Shower, Tv,Kitchen, Heating,Balcony, Parking.</p>
+                                        <p class="card-text"> <b>Location: </b> City Road el, IN 4654</p>
+                                        <p class="card-text ">Fixed <b class="text-success">3000</b> per month.</p>
                                         <p class="card-text"><i>Select now and proceed to book.</i></p>
                                         <!-- the chechbox -->
                                         <span name="topRated" class="topRated">
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="check3" value="100">
+                                                <input type="checkbox" class="custom-control-input" id="check3" value="3000">
                                                 <label style="zoom: 2; margin-left: 10%;" class="custom-control-label"
-                                                    for="check3"><span class="text-success">21000</span></label>
+                                                    for="check3"><span class="text-success">3000</span></label>
                                             </div>
                                             <span name="crust" class="radioButton">
                                                 <div class="custom-control custom-radio custom-control-inline">
@@ -136,13 +166,116 @@
             </div>
             </div>
             </div>
-            <!-- the footer -->
-            <!-- end of happy clients section -->
+         <!-- the summar table to display the receipt-->
+            <details class="container" id="myDetails">
+                <div class="jumbotron jumbotron-fluid">
+                  <h2 style="text-align: center;"> <i>Clients Booking Receipt:</i> </h2>
+                    <div class="container">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Tittle</th>
+                                <th scope="col">Info</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Client Name:</td>
+                                <td id="clientName">...........</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Client Phone:</td>
+                                <td id="clientPhone">.............</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Check In Date:</td>
+                                <td id="ChechIn">...........</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Check Out Date:</td>
+                                <td id="CheckOut">........</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>Selected Houses Names</td>
+                                <td id="houseNames">...........</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>Houses Total Cost</td>
+                                <td id="housePrice">..........</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                  </div>
+            </details>
+<br>
+<!--  -->
+<button onclick="myOneBedroom()" id="order" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+    Book now
+  </button>
+  <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Enter your details to make the booking</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <!-- modal content -->
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputName">Name:</label>
+                      <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputNumber">Phone number: </label>
+                      <input type="number" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1"> Means of payment:</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>M-pesa</option>
+                        <option>KBC Bank</option>
+                        <option>Paybill</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCheckIn">Check in date: </label>
+                      <input type="date" class="form-control" id="exampleInputCheckIn" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputCheckOut">Check out date: </label>
+                      <input type="date" class="form-control" id="exampleInputCheckOut" aria-describedby="emailHelp">
+                    </div>
+                  
+                    <button onclick="myInfo()" type="submit" style="border: 1px solid blue;" class="btn btn-default"><a href="#myDetails">Submit</a></button>
+                  </form>
+                  <!-- end of form -->
+                </div>
+                  <button type="button" class="btn btn-success" data-dismiss="modal"><a href="#myDetails"></a>Close</button>
+              </div>
+            </div>
+          </div>
+          <!-- The footer-->
             <hr>
 <footer class="container-fluid">
-    <div class="row footer" >
-        <p><i>powered my Lexus House Booking Agency @2020</i></p>
-    </div>
+      <div class="row footer" >
+          <p><i>powered my Lexus House Booking Agency @2020</i></p>
+      </div>
 </footer>
 <!--  -->
 </body>
