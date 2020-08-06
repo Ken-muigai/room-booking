@@ -1,7 +1,7 @@
 # room-booking
 
 # Home page.
-![The Home page](images/house1.png)
+![The Home page](images/readme/homepage.png)
 
 ### Author name: Becky Nayere,Humphrey-Mutuma,Michael Omondi,Valentine Robai Inziani.Ken Mugai,John Otieno
 
@@ -17,13 +17,13 @@ The project has a selection section   where you select the room you want to book
 - bedsitter
 
 #### bedsitters
-[The bedsitters page](images/bedsitters-main.jpg)
+![The bedsitters page](images/readme/sitters.png)
 - Delan Homes
 - Mario Appartments
 - Pharisee Homes
 
 #### 1bedroom
-![The 1 bedroom page ](images/1-bedroom-main.jpg)
+![The 1 bedroom page ](images/readme/1bedroom.png)
 - Nayers House
 - Keekorok House
 - Cray Fish Houses
@@ -31,7 +31,7 @@ The project has a selection section   where you select the room you want to book
 #### 2bedroom
 [The 2 bedroom page] (images/2-bedroom-rooms.jpg)
 #### Types of Top Rated Rooms;
-![The top rated rooms](images/top-rated.png)
+![The top rated rooms](images/readme/toprated.png)
 
 - Jontes Appartments
 - El ninel rooms
