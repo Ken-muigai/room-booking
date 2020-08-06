@@ -10,7 +10,7 @@
 
 The project has a selection section   where you select the room you want to book for the semester.
 #### Rooms alocated according to sizes
-![The room size page](image/.png)
+![The room size page](images/living house3.jpeg)
 
 - 2 bedroom
 - 1 bedroom
