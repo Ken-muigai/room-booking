@@ -18,6 +18,72 @@ $(document).ready(function(){
 });
 
 // function to display moday contents
+    function bedSitter(){
+
+        var client = document.getElementById("mario").checked;
+        if(client === true){
+            client = 19000;
+        }
+
+        var client2 = document.getElementById("delan").checked;
+        if(client2 === true){
+            client2 = 22000;
+        }
+
+        var client3 = document.getElementById("pharisee").checked;
+        if( client3 === true){
+            client3 = 20000
+        }
+        var client4 = document.getElementById("scotch").checked;
+        if( client4 === true){
+            client4 = 19000;
+        }
+        var client5 = document.getElementById("goodwill").checked;
+        if( client5 === true){
+            client5 = 10000
+        }
+        var lastclient = document.getElementById("circques").checked;
+        if( lastclient === true){
+            lastclient = 12000
+        }
+        // end of code to take calculte total cost of all selected rooms
+        var bedSitter = client + client2  + client3 + client4 + client5 + lastclient;
+        document.getElementById("housePrice").innerHTML = bedSitter;
+
+        // code to determine and append the selected houses
+        if (client === 19000){
+            roomClient = "MARIO APARTMENTS, "
+        }else{
+            roomClient = " "
+        }
+
+        if(client2 === 22000){
+            roomClient2 = "  DELAN HOMES,  "
+        }else{
+            roomClient2 = " "
+        }
+        if(client3 === 20000){
+            roomClient3 = "   PHARISEE HOMES,  "
+        }else{
+            roomClient3 = "  "
+        }
+        if ( client4 === 19000){
+            roomClient4 = "  SCOTCH APARTMENTS,  "
+        }else{
+            roomClient4 = " "
+        }
+        if(client5 === 10000){
+            roomClient5 = " GOODWILL APARTMENTS, "
+        }else{
+            roomClient5 = " "
+        }if(lastclient === 12000){
+            roomLastClient = "   CIRCQUES APARTMENTS,  "
+        }else{
+            roomLastClient = "  "
+        }
+        var bedSitterroomHouse = roomClient + roomClient2 + roomClient3 +  roomClient4 + roomClient5 + roomLastClient;
+        document.getElementById("houseNames").innerHTML = bedSitterroomHouse;
+    }
     function myInfo(){
         var name = document.getElementById("exampleInputName").value;
         document.getElementById("clientName").innerHTML = name;
@@ -65,6 +131,7 @@ $(document).ready(function(){
          document.getElementById("houseNames").innerHTML = topRatedTotal;
     }
     // new function
+
    // 1 bedroom rooms booking function
     function myOneBedroom(){
 
