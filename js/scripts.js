@@ -93,7 +93,7 @@ $(document).ready(function(){
         document.getElementById("ChechIn").innerHTML = checkInDate;
         var checkOutDate = document.getElementById("exampleInputCheckOut").value;
         document.getElementById("CheckOut").innerHTML = checkOutDate;
-        alert("Your booking has been plced");
+        alert("Your booking has been placed.Thank you for booking with us.");
     }
     // top rated rooms booking function
     function topRated(){
